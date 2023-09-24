@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top,rgb(0, 0, 0,0.4),rgba(0, 0, 0, 0.8)), url(3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+header{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 50px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 99; */
+}
+
+.logo{
+    font-size: 30px;
+    color: rgb(255, 162, 0);
+    font-family: Arial;
+}
+.navigation a{
+    /* position: relative; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 650px;
+    font-family: Arial;
+    margin-left: 40px;
+}
+.searchbutton{
+    color: white;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(255, 162, 0);
+    border-radius: 3px;
+    background-color:  rgb(255, 162, 0);
+
+} 
+.inputsearch{
+    padding: 10px;
+    margin-left: 40px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.tagline1{
+    font-size:45px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.tagline2{
+    font-size:45px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 162, 0);
+}
+.content{
+    margin-top: 100px;
+    padding-left:50px;
+    width: 50%;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 25px;
+    font-weight: 500;
+}
+.form{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 3.3%;
+    width: 20%;
+    height: 374px;
+    font-family: Arial;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.655);
+}
+main{
+    display: flex;
+
+}
+.logindesign{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color:rgb(255, 162, 0);
+    padding: 6px 10px;
+    margin: 12px;
+    border-radius: 8px;
+}
+input{
+    color: white;
+    width: 278px;
+    padding: 6px 10px;
+    
+    background-color:transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+.join{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 162, 0);
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+::placeholder{
+    color:rgb(157, 157, 157);
+}
+.form button{
+    width: 278px;
+    background-color: rgb(255, 162, 0);
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    margin: 12px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(255, 162, 0);
+}
+.dont{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.here{
+    color: white;
+}
+.sign{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.inform1{
+    margin: 12px;
+    margin-top: 30px;
+    line-height: 50px;
+    font-family: Arial;
+}
+.inform2{
+    margin: 12px;
+}
+.logwith{    
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.icon i{
+    color: white;
+}
+.icon i:hover{
+    color: rgb(255, 162, 0);
+    cursor: pointer;
+}
+.join:hover{
+    background: rgb(255, 162, 0);
+    color: white;
+    cursor: pointer;
+}
+.searchbutton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 162, 0);
+    cursor: pointer;
+}
+.navigation a:hover{
+    color: rgb(255, 162, 0);
+    font-size: 17px;
+}
